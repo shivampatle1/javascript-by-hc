@@ -6,7 +6,7 @@ tinderuser.id="123abc"
 tinderuser.name="ram"
 tinderuser.isloggedIn=false
 
-console.log(tinderuser);
+//console.log(tinderuser);
 
 const regularUser={
     email: "someone@gmail.com",
@@ -48,8 +48,24 @@ const users =[
 
 users[1].email
 
-console.log(Object.keys(tinderuser));
-console.log(Object.values(tinderuser));
-console.log(Object.entries(tinderuser));
+//console.log(Object.keys(tinderuser));
+//console.log(Object.values(tinderuser));
+//console.log(Object.entries(tinderuser));
 
-console.log(tinderuser.hasOwnProperty('isloggedIn)'));
+//console.log(tinderuser.hasOwnProperty('isloggedIn)'));
+
+const course={
+    coursename:"Java Script",
+    price:999,
+    courseInstructor:"shivam"
+}
+
+const {courseInstructor : instructor}=course
+//console.log(courseInstructor);
+console.log(instructor);
+
+//{
+//    "name":"Shivam",
+//    "coursename":"java script",
+//    "price":"free",
+//}
