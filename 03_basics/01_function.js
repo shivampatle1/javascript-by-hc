@@ -5,4 +5,25 @@ console.log("V");
 console.log("A");
 console.log("M");
 }
-sayMyname()
+//sayMyname()
+
+function addTwoNumber(number1, number2){
+    console.log(number1+number2);
+    return number1+number2
+}
+
+//const result =addTwoNumber(5,6)
+//console.log("result:",result);
+
+
+
+function logginUserMesssage(username){
+    if (username===undefined) {
+        console.log("please enter a username");
+        return
+    }
+    return `${username} just logged in`
+}
+
+//console.log(logginUserMesssage("Shivam"));
+console.log(logginUserMesssage())
