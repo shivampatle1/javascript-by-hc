@@ -26,4 +26,10 @@ function logginUserMesssage(username){
 }
 
 //console.log(logginUserMesssage("Shivam"));
-console.log(logginUserMesssage())
+//console.log(logginUserMesssage())
+
+function calculateCartPrice(...num1) //yha par 3 dot hai wo  rest hai wo array bna deta hai
+{
+    return num1
+}
+
