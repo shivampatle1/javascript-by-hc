@@ -33,3 +33,34 @@ function calculateCartPrice(...num1) //yha par 3 dot hai wo  rest hai wo array b
     return num1
 }
 
+//console.log(calculateCartPrice(100,200,500,2000));
+
+const user={
+    username:"Shivam",
+    price:199
+}
+
+function handleobject(anyobject) {
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+
+//handleobject(user)
+
+//Direct Object
+
+handleobject({
+    username:"Hp",
+    price:399
+})
+
+//array
+
+const myNewArray=[200,400,100,600]
+
+function returnSecondValue(getarray) {
+   return getarray[1] 
+}
+
+console.log(returnSecondValue(myNewArray));
+
+  
